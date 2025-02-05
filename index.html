@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#DA373D',
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body class="text-white bg-black font-sans">
+
+    <nav class="bg-[#0F172A] w-full h-16  flex static">
+        <div class="w-[50%] h-full content-center ">
+            <h1 class="text-white font-bold ml-32 text-2xl">Portfolio</h1>
+        </div>
+        <div class="flex text-white list-none w-[50%] justify-evenly font-bold items-center">
+            <a href="#home"> Home</a>
+            <a href="#about">About Me</a>
+            <a href="#project">My Projects</a>
+            <a href="#contact">Contact us</a>
+        </div>
+    </nav>
+
+    <div class=" flex flex-col gap-8 w-full h-full bg-black  sm:flex-col md:flex-row  " id="home">
+        <div class="w-full  bg-black sm:w-full sm:translate-y-4 md:w-[50%] ">
+            <img class="justify-self-center w-full  h-full sm:w-[30%] md:w-[100%] bg-transparent "
+                src="pics/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" alt="">
+        </div>
+
+        <div class="content-center gap-8  text-xl px-16 sm:w-full md:w-[50%] ">
+            <h1 class="font-bold  text-2xl uppercase justify-center">Hi I Am Abdul mueed </h1>
+            <p> A passionate <b> Front-End Developer </b>. I
+                specialize in
+                building responsive, user-friendly interfaces using HTML, CSS, and Tailwind CSS.</p>
+        </div>
+
+    </div>
+
+    <div>
+        <div class="bg-black h-full w-full flex flex-col gap-8 sm:flex-col md:flex-row" id="about">
+            <div class=" w-full h-full content-center px-16 sm:w-full sm:h-full md:w-[50%]">
+                <h1 class="font-bold text-3xl">My Skills</h1>
+                <br>
+                <h1 class="font-bold text-xl">HTML</h1>
+
+                <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                    <div class="bg-blue-600 h-2.5 rounded-full w-[45%]"></div>
+                </div><br>
+                <h1 class="font-bold text-xl">CSS</h1>
+
+                <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                    <div class="bg-blue-600 h-2.5 rounded-full w-[45%]"></div>
+                </div><br>
+                <h1 class="font-bold text-xl">TAILWIND</h1>
+
+                <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                    <div class="bg-blue-600 h-2.5 rounded-full w-[45%]"></div>
+                </div><br>
+                <h1 class="font-bold text-xl">SHOPIFY</h1>
+
+                <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                    <div class="bg-blue-600 h-full rounded-full  w-[70%]"></div>
+                </div><br>
+                <h1 class="font-bold text-xl"> GITHUB</h1>
+
+                <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                    <div class="bg-blue-600 h-2.5 rounded-full w-[45%]"></div>
+                </div><br>
+
+
+
+            </div>
+            <div class="w-full h-full gap-8 content-center text-2xl px-16 sm:w-[100%] md:w-[50%]">
+                <h1 class="font-extrabold uppercase justify-center">About me </h1>
+                <p> Hi, I'm <b> Abdul Mueed </b>, a passionate <b> Front-End Developer </b>. I
+                    specialize in
+                    building responsive, user-friendly interfaces using HTML, CSS, and Tailwind CSS. With a keen eye for
+                    design and performance, I create seamless digital experiences that are both visually appealing and
+                    highly functional.
+
+                    I also have experience with GitHub, ensuring efficient version control and collaboration in my
+                    projects.
+                    I’m always eager to learn new technologies and improve my skills to stay ahead in the ever-evolving
+                    web
+                    development landscape.</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="h-full lg:h-screen px-10   " id="project">
+        <h1 class="text-3xl font-bold  bg-black ">My Projects</h1>
+        <div class="w-full h-[90%] flex flex-col justify-center sm:flex-col md:flex-row">
+            <div class="w-full bg-black h-full sm:w-full md:w-[33%]">
+                <div class="px-6 py-8">
+                    <img class="h-60 w-96 rounded-xl" src="pics/download.jpg " alt="">
+                    <h1 class="text-4xl font-bold mt-2">Project 1</h1>
+                    <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fuga quod voluptates
+                        tempora minima ex harum. Perspiciatis quam fugit aut tenetur explicabo quo officiis vel pariatur
+                        cupiditate. Facilis corporis aut reprehenderit enim iure sequi numquam minima non. Facere,
+                        eveniet
+                        ratione.</p>
+                    <div class="flex justify-center items-center">
+                        <button class="bg-blue-600  h-14 w-28 sm:ml-[70%] mt-3 rounded-2xl text-xl ">More</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="w-full bg-black h-full sm:w-full md:w-[33%]">
+                <div class="px-6 py-8">
+                    <img class="h-60 w-96 rounded-xl" src="pics/download.jpg " alt="">
+                    <h1 class="text-4xl font-bold mt-2">Project 2</h1>
+                    <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fuga quod voluptates
+                        tempora minima ex harum. Perspiciatis quam fugit aut tenetur explicabo quo officiis vel pariatur
+                        cupiditate. Facilis corporis aut reprehenderit enim iure sequi numquam minima non. Facere,
+                        eveniet
+                        ratione.</p>
+                    <div class="flex justify-center">
+                        <button class="bg-blue-600 h-14 w-28 sm:ml-[70%] mt-3 rounded-2xl text-xl ">More</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="w-full bg-black h-full sm:w-full md:w-[33%]">
+                <div class="px-6 py-8">
+                    <img class="h-60 w-96 rounded-xl" src="pics/download.jpg " alt="">
+                    <h1 class="text-4xl font-bold mt-2">Project 3</h1>
+                    <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fuga quod voluptates
+                        tempora minima ex harum. Perspiciatis quam fugit aut tenetur explicabo quo officiis vel pariatur
+                        cupiditate. Facilis corporis aut reprehenderit enim iure sequi numquam minima non. Facere,
+                        eveniet
+                        ratione.</p>
+                    <div class="flex justify-center">
+                        <button class="bg-blue-600 h-14 w-28 sm:ml-[70%] mt-3 rounded-2xl text-xl ">More</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+
+        <div class="bg-slate-900 px-20 h-screen flex flex-col justify-center py-12 sm:flex-col md:flex-row">
+
+            <div class="w-full h-full sm:w-full md:w-[50%]" id="contact">
+                <div>
+                    <h1 class="text-3xl  font-bold">Contact Me</h1>
+                </div>
+
+
+                <form action="" class="flex h-3/4 justify-center flex-col gap-y-5 ">
+                    <div class="flex   w-full">
+
+                        <input type="text" class=" py-1 px-2 rounded-md" placeholder="First Name">
+                        <input type="text" class="translate-x-4 py-1 px-2 rounded-md" placeholder="Surname">
+                    </div>
+                    <input class="w-[69%] rounded-md px-2 py-1" type="text" placeholder="Mail Adress">
+                    <input class="w-[34.5%] rounded-md px-2 py-1" type="text" placeholder="Subject">
+                    <input class="w-[34.5%] rounded-md px-2 py-1" type="textarea" placeholder="Message">
+                    <input class="bg-blue-600 h-[10%] w-[25%] self-center rounded-lg " type="button"
+                        value="Send Message">
+            </div>
+            <div class="flex flex-col gap-5 w-full justify-center h-3/4 sm:w-full md:w-[50%]">
+
+                <p><i class="ri-phone-line pe-3"></i>phone Number : +01 250 625 20 20</p>
+                <p><i class="ri-mail-line pe-3"></i>E Mail : </p>
+                <p><i class="ri-map-pin-line pe-3"></i>Address : </p>
+
+            </div>
+
+
+            </form>
+        </div>
+    </footer>
+
+    <script src=" ./tailwind.config.js">
+    </script>
+</body>
+
+</html>
