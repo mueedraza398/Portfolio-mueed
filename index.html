@@ -24,20 +24,29 @@
 
     <nav class="bg-[#0F172A] w-full h-16  flex static">
         <div class="w-[50%] h-full content-center ">
-            <h1 class="text-white font-bold ml-32 text-2xl">Portfolio</h1>
+            <h1 class="text-white font-bold md:ml-32 ml-5 text-2xl">Portfolio</h1>
         </div>
-        <div class="flex text-white list-none w-[50%] justify-evenly font-bold items-center">
+        <div class="md:flex text-white list-none w-[50%] justify-evenly font-bold items-center hidden md:visible  ">
             <a href="#home"> Home</a>
             <a href="#about">About Me</a>
             <a href="#project">My Projects</a>
             <a href="#contact">Contact us</a>
         </div>
+
+        <!-- sidebar -->
+         <div class=" w-full md:w-0 flex justify-end items-center">
+
+            <i class="ri-menu-line visible md:hidden px-6" ></i>
+
+         </div>
+
+        
     </nav>
 
     <div class=" flex flex-col gap-8 w-full h-full bg-black  sm:flex-col md:flex-row  " id="home">
         <div class="w-full  sm:w-full sm:translate-y-4 md:w-[50%] ">
-            <img class="justify-self-center w-full h-[90%] sm:w-[30%] md:w-[100%] bg-transparent "
-                src="pics/img-20250205-wa0001.jpg" alt="">
+            <img class="justify-self-center px-0 sm:px-12 w-full h-[90%] sm:w-[30%] md:w-[100%] bg-transparent "
+                src="pics/img-20250205-wa0001-removebg-preview (1).png" alt="">
         </div>
 
         <div class="content-center gap-8  text-xl px-16 sm:w-full md:w-[50%] ">
@@ -50,7 +59,7 @@
     </div>
 
     <div>
-        <div class="bg-black h-full w-full flex flex-col gap-8 sm:flex-col md:flex-row" id="about">
+        <div class="bg-black h-full w-full flex flex-col my-8 sm:flex-col md:flex-row" id="about">
             <div class=" w-full h-full content-center px-16 sm:w-full sm:h-full md:w-[50%]">
                 <h1 class="font-bold text-3xl">My Skills</h1>
                 <br>
@@ -83,7 +92,7 @@
 
 
             </div>
-            <div class="w-full h-full gap-8 content-center text-2xl px-16 sm:w-[100%] md:w-[50%]">
+            <div class="w-full h-full  content-center text-2xl px-16 sm:w-[100%] md:w-[50%]">
                 <h1 class="font-extrabold uppercase justify-center">About me </h1>
                 <p> Hi, I'm <b> Abdul Mueed </b>, a passionate <b> Front-End Developer </b>. I
                     specialize in
@@ -100,8 +109,8 @@
 
         </div>
     </div>
-    <div class="h-full lg:h-screen px-10   " id="project">
-        <h1 class="text-3xl font-bold  bg-black ">My Projects</h1>
+    <div class="h-full lg:h-screen px-10 " id="project">
+        <h1 class="text-3xl font-bold my-6 bg-black ">My Projects</h1>
         <div class="w-full h-[90%] flex flex-col justify-center sm:flex-col md:flex-row">
             <div class="w-full bg-black h-full sm:w-full md:w-[33%]">
                 <div class="px-6 py-8">
@@ -141,7 +150,9 @@
                         tempora minima ex harum. Perspiciatis quam fugit aut tenetur explicabo quo officiis vel pariatur
                         cupiditate. Facilis corporis aut reprehenderit enim iure sequi numquam minima non. Facere,
                         eveniet
-                        ratione.</p>
+                        ratione.
+
+                    </p>
                     <div class="flex justify-center">
                         <button class="bg-blue-600 h-14 w-28 sm:ml-[70%] mt-3 rounded-2xl text-xl ">More</button>
                     </div>
